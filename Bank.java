@@ -201,6 +201,7 @@ public class Bank {
 						}
 						if( curInput.contains( "-" ) ) {
 							System.err.println( "Invalid data: negative amount was entered." );
+							continue;
 						}
 					}
 					
